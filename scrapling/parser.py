@@ -681,7 +681,7 @@ class Selector(SelectorsGeneration):
                         "Argument `auto_save` will be ignored because `adaptive` wasn't enabled on initialization. Check docs for more info."
                     )
 
-                return self.__handle_elements(elements)
+                return self.__handle_elements([])
 
         except (
             SelectorError,
